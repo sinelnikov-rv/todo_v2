@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+
+</head>
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="nav container-fluid">
+            <button id="ToDo" class="">ToDo</button>
+            <button id="Both" class="active">Both</button>
+            <button id="Done" class="">Done</button>
+        </div>
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="todo">
+            <input id="text" type="text" placeholder="input task">
+            <button id="addTask">add</button>
+            <table class="table table-bordered table-striped" id="taskList">
+                <thead>
+                <tr><th>Task List</th></tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div class="done">
+            <div id="taskBar">
+                <label><input type="checkbox">select all</label><button>delete all</button>
+            </div>
+            <table class="table table-bordered table-striped" id="doneList">
+                <thead>
+                <tr><th>Done List</th></tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+    </div>
+</div>
+</div>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <!--<script src="app.js" type="application/javascript"></script>-->
+</body>
+</html>

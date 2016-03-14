@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="public/css/style.css" type="text/css" rel="stylesheet">
+    <link href="public/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-4 col-md-offset-1">
+        <input id="text" type="text">
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <input type="button" id="addTask" value="add">
+        <table class="table table-bordered table-striped" id="taskList">
+            <thead>
+        <tr><th>Task List</th></tr>
+            </thead>
+            <tbody>
+            </tbody>
+    </table>
+    </div>
+    <div class="col-md-6">
+        <table class="table table-bordered table-striped" id="doneList">
+            <thead>
+        <tr><th>Done List</th></tr>
+            </thead>
+            <tbody>
+            </tbody>
+    </table>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6 col-md-offset-6" id="taskBar">
+
+    </div>
+</div>
+    <script src="app.js" type="application/javascript"></script>
+</body>
+</html>
